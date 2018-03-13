@@ -1,0 +1,7 @@
+*.bak
+*.bck
+*.*-bak
+*backup*
+*.zip
+*.pdf
+tmp/
