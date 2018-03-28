@@ -1163,15 +1163,6 @@ F 3 "https://www.infineon.com/dgdl/Infineon-BSC080N03MSG-DS-v02_01-en.pdf?fileId
 	1    6150 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7100 5650 7100 5700
-Wire Wire Line
-	7100 5600 7100 5650
-Connection ~ 7100 5650
-Wire Wire Line
-	6250 5650 6250 6000
-Wire Wire Line
-	5800 5650 6250 5650
 Text Notes 5750 4800 0    50   ~ 0
 2u2
 Wire Wire Line
@@ -1288,9 +1279,6 @@ Text Notes 3450 6050 0    50   ~ 0
 X7R 1210
 Text Notes 600  1300 0    50   ~ 0
 3V9 - 17V
-Connection ~ 6250 5650
-Wire Wire Line
-	6250 5650 7100 5650
 Text HLabel 950  2700 0    50   BiDi ~ 0
 SDA
 Text HLabel 950  2800 0    50   Input ~ 0
@@ -1333,4 +1321,13 @@ F 3 "" H 9200 2550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9200 2550 9200 2600
+Wire Wire Line
+	7100 5600 7100 5650
+Wire Wire Line
+	7100 5650 7100 5700
+Connection ~ 7100 5650
+Wire Wire Line
+	6250 5650 6250 6000
+Wire Wire Line
+	5800 5650 7100 5650
 $EndSCHEMATC
