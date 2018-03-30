@@ -9,7 +9,7 @@ F1 "Connector_Generic_Shielded_Conn_01x02_Shielded" 40 -190 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_1x??_*
+ Connector*:*_1x??-1SH*
 $ENDFPLIST
 DRAW
 S -50 50 50 -150 1 1 6 N
@@ -18,7 +18,7 @@ S -40 5 10 -5 1 1 6 N
 S -40 40 40 -140 1 1 10 f
 X Pin_1 1 -200 0 160 R 50 50 1 1 P
 X Pin_2 2 -200 -100 160 R 50 50 1 1 P
-X SHIELD SH 0 -300 150 U 50 50 1 1 P
+X Shield SH 0 -300 150 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -55,7 +55,7 @@ F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- C_*
+ *:C_*
 $ENDFPLIST
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
@@ -73,7 +73,7 @@ F1 "Device_CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- CP_*
+ *:CP_*
 $ENDFPLIST
 DRAW
 S -90 20 -90 40 0 1 0 N
@@ -100,7 +100,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
@@ -123,7 +123,7 @@ $FPLIST
  Choke_*
  *Coil*
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
@@ -166,8 +166,7 @@ F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- R_*
- R_*
+ *:R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -241,11 +240,11 @@ X NC 9 500 -100 100 L 50 50 1 1 N N
 ENDDRAW
 ENDDEF
 #
-# KLIB_Con_IDC_IDC_02X13
+# KLIB_Connector_IDC_IDC_02X13
 #
-DEF KLIB_Con_IDC_IDC_02X13 J 0 50 Y N 1 F N
+DEF KLIB_Connector_IDC_IDC_02X13 J 0 50 Y N 1 F N
 F0 "J" -150 725 50 H V L CNN
-F1 "KLIB_Con_IDC_IDC_02X13" 0 -725 50 H V C CNN
+F1 "KLIB_Connector_IDC_IDC_02X13" 0 -725 50 H V C CNN
 F2 "Connectors:IDC_Header_Straight_26pins" 550 0 50 V I C CNN
 F3 "" 500 0 50 V I C CNN
 $FPLIST
@@ -310,15 +309,15 @@ X ~ 9 -300 200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# KLIB_Mech_Screw
+# KLIB_Mechanical_Bolt
 #
-DEF KLIB_Mech_Screw H 0 0 N N 1 F N
+DEF KLIB_Mechanical_Bolt H 0 0 N N 1 F N
 F0 "H" 100 50 50 H V L CNN
-F1 "KLIB_Mech_Screw" 100 -50 50 H V L CNN
-F2 "wyk_mech:screw_M3" 100 -150 50 H I L CNN
+F1 "KLIB_Mechanical_Bolt" 100 -50 50 H V L CNN
+F2 "KLIB_Mech:Bolt_M3" 100 -150 50 H I L CNN
 F3 "" 125 -75 50 H I C CNN
 $FPLIST
- *screw*
+ *Bolt*
 $ENDFPLIST
 DRAW
 P 2 1 1 0 -25 -50 25 0 N

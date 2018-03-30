@@ -897,7 +897,7 @@ U 1 1 5ABBA111
 P 1150 1200
 F 0 "J2" H 1074 1415 50  0000 C CNN
 F 1 "FC681495" H 1074 1324 50  0000 C CNN
-F 2 "" H 1150 1200 50  0001 C CNN
+F 2 "KLIB_Connector_Power:Cliff_FC681495" H 1150 1200 50  0001 C CNN
 F 3 "http://www.cliffuk.co.uk/products/dcconnectors/FC681495.pdf" H 1150 1200 50  0001 C CNN
 	1    1150 1200
 	-1   0    0    -1  
