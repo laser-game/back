@@ -605,50 +605,6 @@ Connection ~ 650  4050
 Wire Wire Line
 	2250 3800 2250 3850
 $Comp
-L KLIB_Mechanical:Bolt H2
-U 1 1 5ACAE88A
-P 6600 3950
-F 0 "H2" H 6705 4021 50  0000 L CNN
-F 1 "M3" H 6705 3930 50  0000 L CNN
-F 2 "wyk_mech:screw_M3" H 6700 3800 50  0001 L CNN
-F 3 "~" H 6725 3875 50  0001 C CNN
-	1    6600 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L KLIB_Mechanical:Bolt H3
-U 1 1 5ACAEAD6
-P 7000 3950
-F 0 "H3" H 7105 4021 50  0000 L CNN
-F 1 "M3" H 7105 3930 50  0000 L CNN
-F 2 "wyk_mech:screw_M3" H 7100 3800 50  0001 L CNN
-F 3 "~" H 7125 3875 50  0001 C CNN
-	1    7000 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L KLIB_Mechanical:Bolt H4
-U 1 1 5ACAEB1D
-P 7400 3950
-F 0 "H4" H 7505 4021 50  0000 L CNN
-F 1 "M3" H 7505 3930 50  0000 L CNN
-F 2 "wyk_mech:screw_M3" H 7500 3800 50  0001 L CNN
-F 3 "~" H 7525 3875 50  0001 C CNN
-	1    7400 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L KLIB_Mechanical:Bolt H1
-U 1 1 5ACAEC08
-P 6200 3950
-F 0 "H1" H 6305 4021 50  0000 L CNN
-F 1 "M3" H 6305 3930 50  0000 L CNN
-F 2 "wyk_mech:screw_M3" H 6300 3800 50  0001 L CNN
-F 3 "~" H 6325 3875 50  0001 C CNN
-	1    6200 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L KLIB_Power:PWR_FLAG #FLG02
 U 1 1 5AC515A4
 P 1650 1150
@@ -876,6 +832,50 @@ F 1 "OSRB38C9BA" H 976 1526 50  0000 C CNN
 F 2 "KLIB_Opto:OSRB8C9BA_Horizontal" H 1000 900 50  0001 C CNN
 F 3 "http://www.tme.eu/cz/Document/777fdf21e0fba3fd5c036ef95756460c/OSRB38C9BA.pdf" H 1050 900 50  0001 C CNN
 	1    1000 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L KLIB_Mechanical:Bolt H1
+U 1 1 5AFB06E8
+P 6000 3900
+F 0 "H1" H 6105 3971 50  0000 L CNN
+F 1 "M3" H 6105 3880 50  0000 L CNN
+F 2 "KLIB_Mechanical:Bolt_M3" H 6100 3750 50  0001 L CNN
+F 3 "~" H 6125 3825 50  0001 C CNN
+	1    6000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L KLIB_Mechanical:Bolt H2
+U 1 1 5AFB0770
+P 6400 3900
+F 0 "H2" H 6505 3971 50  0000 L CNN
+F 1 "M3" H 6505 3880 50  0000 L CNN
+F 2 "KLIB_Mechanical:Bolt_M3" H 6500 3750 50  0001 L CNN
+F 3 "~" H 6525 3825 50  0001 C CNN
+	1    6400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L KLIB_Mechanical:Bolt H3
+U 1 1 5AFB07B1
+P 6800 3900
+F 0 "H3" H 6905 3971 50  0000 L CNN
+F 1 "M3" H 6905 3880 50  0000 L CNN
+F 2 "KLIB_Mechanical:Bolt_M3" H 6900 3750 50  0001 L CNN
+F 3 "~" H 6925 3825 50  0001 C CNN
+	1    6800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L KLIB_Mechanical:Bolt H4
+U 1 1 5AFB07FC
+P 7200 3900
+F 0 "H4" H 7305 3971 50  0000 L CNN
+F 1 "M3" H 7305 3880 50  0000 L CNN
+F 2 "KLIB_Mechanical:Bolt_M3" H 7300 3750 50  0001 L CNN
+F 3 "~" H 7325 3825 50  0001 C CNN
+	1    7200 3900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
