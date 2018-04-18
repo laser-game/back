@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 6)
-    (tracks 125)
+    (tracks 126)
     (zones 0)
     (modules 77)
     (nets 50)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 2)
     (user_trace_width 0.5)
     (user_trace_width 0.8)
     (user_trace_width 1)
@@ -3266,7 +3266,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric (layer F.Cu) (tedit 5AC5DB74) (tstamp 5B3004CB)
-    (at 159.25 130.75 270)
+    (at 159.24 130.64 270)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ABB8204/5ABB9F10)
@@ -3396,10 +3396,12 @@
   (gr_line (start 200 85) (end 200 140) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 90 85) (end 200 85) (layer Edge.Cuts) (width 0.15))
 
-  (segment (start 159.25 129.32) (end 159.25 127.35) (width 2) (layer F.Cu) (net 1))
-  (segment (start 159.25 127.35) (end 164.5 122.1) (width 2) (layer F.Cu) (net 1))
+  (segment (start 159.24 129.21) (end 159.24 127.51) (width 2) (layer F.Cu) (net 1))
+  (segment (start 159.24 127.51) (end 164.5 122.25) (width 2) (layer F.Cu) (net 1))
+  (segment (start 164.5 122.25) (end 164.5 122.1) (width 2) (layer F.Cu) (net 1))
   (segment (start 164.5 122.1) (end 168.25 122.1) (width 2) (layer F.Cu) (net 1))
   (segment (start 173.75 122.1) (end 168.25 122.1) (width 2) (layer F.Cu) (net 1))
+  (segment (start 151.25 132.07) (end 159.24 132.07) (width 2) (layer F.Cu) (net 2))
   (segment (start 144.299999 130.050001) (end 144.630001 130.380003) (width 0.5) (layer F.Cu) (net 2))
   (segment (start 144.630001 130.380003) (end 144.630001 130.800001) (width 0.5) (layer F.Cu) (net 2))
   (segment (start 143.9 130.45) (end 144.299999 130.050001) (width 0.5) (layer F.Cu) (net 2))
@@ -3415,8 +3417,6 @@
   (segment (start 144.630001 130.800001) (end 144.630001 130.630001) (width 0.5) (layer F.Cu) (net 2))
   (segment (start 145.9 132.07) (end 144.630001 130.800001) (width 1.2) (layer F.Cu) (net 2))
   (segment (start 149.25 132.07) (end 145.9 132.07) (width 2) (layer F.Cu) (net 2))
-  (segment (start 152.5 132.07) (end 159.14 132.07) (width 2) (layer F.Cu) (net 2))
-  (segment (start 159.14 132.07) (end 159.25 132.18) (width 2) (layer F.Cu) (net 2))
   (segment (start 149.25 132.07) (end 152.5 132.07) (width 2) (layer F.Cu) (net 2))
   (segment (start 111.62 91) (end 111.62 88.46) (width 2) (layer F.Cu) (net 3))
   (segment (start 106.54 91) (end 106.54 88.46) (width 2) (layer F.Cu) (net 3))
@@ -3490,6 +3490,7 @@
   (segment (start 131.94 91) (end 131.94 93.8) (width 0.5) (layer F.Cu) (net 29))
   (segment (start 132.5 94.36) (end 131.94 93.8) (width 0.5) (layer F.Cu) (net 29))
   (segment (start 132.5 96.37) (end 132.5 94.36) (width 0.5) (layer F.Cu) (net 29))
+  (segment (start 148 127.93) (end 151.25 127.93) (width 0.5) (layer F.Cu) (net 31))
   (segment (start 144.15 129.3) (end 145.2 129.3) (width 0.5) (layer F.Cu) (net 31))
   (segment (start 145.2 129.3) (end 145.4 129.1) (width 0.5) (layer F.Cu) (net 31))
   (segment (start 144.6 129.1) (end 144.6 129.15) (width 0.5) (layer F.Cu) (net 31))
