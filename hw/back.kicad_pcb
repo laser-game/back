@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 6)
-    (tracks 88)
+    (tracks 83)
     (zones 0)
     (modules 77)
     (nets 50)
@@ -648,7 +648,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5AC5DB74) (tstamp 5B300685)
-    (at 158.5 133.5 180)
+    (at 160.25 134.75 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ABB8204/5ABBA0F5)
@@ -754,7 +754,7 @@
   )
 
   (module Capacitor_SMD:C_1210_3225Metric (layer F.Cu) (tedit 5AC5DB74) (tstamp 5B3001C5)
-    (at 147.75 127.5 90)
+    (at 149.25 126.5 90)
     (descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ABB8204/5ABB9FF9)
@@ -790,7 +790,7 @@
   )
 
   (module Capacitor_SMD:C_1210_3225Metric (layer F.Cu) (tedit 5AC5DB74) (tstamp 5B300438)
-    (at 151 127.5 90)
+    (at 152.5 126.5 90)
     (descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ABB8204/5ABB9FF2)
@@ -934,7 +934,7 @@
   )
 
   (module Capacitor_SMD:C_1210_3225Metric (layer F.Cu) (tedit 5AC5DB74) (tstamp 5B30062D)
-    (at 151 132.5 270)
+    (at 152.5 133.5 270)
     (descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ABB8204/5ABBA0D5)
@@ -1006,7 +1006,7 @@
   )
 
   (module Capacitor_SMD:C_1210_3225Metric (layer F.Cu) (tedit 5AC5DB74) (tstamp 5B3001F5)
-    (at 147.75 132.5 270)
+    (at 149.25 133.5 270)
     (descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ABB8204/5ABBA0DD)
@@ -1507,7 +1507,7 @@
   )
 
   (module KLIB_Connector_Power:N42GK-04 (layer F.Cu) (tedit 5AD61290) (tstamp 5B2FB36D)
-    (at 171 125 180)
+    (at 171 120 180)
     (descr https://www.tme.eu/cz/details/n42gk-04/signalove-konektory-raster-420mm/ninigi/)
     (tags "N42GK-04 NINIGI MOLEX 2X2")
     (path /5ABB8204/5ADF92B4)
@@ -2098,7 +2098,7 @@
   )
 
   (module Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm (layer F.Cu) (tedit 5A6725D7) (tstamp 5B300479)
-    (at 160.75 129.5 90)
+    (at 162.5 130.75 90)
     (descr "MS8E Package; 8-Lead Plastic MSOP, Exposed Die Pad (see Linear Technology 05081662_K_MS8E.pdf)")
     (tags "SSOP 0.65")
     (path /5ABB8204/5ABBA0C8)
@@ -3266,7 +3266,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric (layer F.Cu) (tedit 5AC5DB74) (tstamp 5B3004CB)
-    (at 157.5 129.5 270)
+    (at 159.25 130.75 270)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ABB8204/5ABB9F10)
@@ -3396,11 +3396,6 @@
   (gr_line (start 200 85) (end 200 140) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 90 85) (end 200 85) (layer Edge.Cuts) (width 0.15))
 
-  (segment (start 168.25 127.1) (end 165.15 124) (width 2) (layer F.Cu) (net 1))
-  (segment (start 165.15 124) (end 159.2 124) (width 2) (layer F.Cu) (net 1))
-  (segment (start 159.2 124) (end 157.5 125.7) (width 2) (layer F.Cu) (net 1))
-  (segment (start 157.5 125.7) (end 157.5 127.5) (width 2) (layer F.Cu) (net 1))
-  (segment (start 173.75 127.1) (end 168.25 127.1) (width 2) (layer F.Cu) (net 1))
   (segment (start 111.62 91) (end 111.62 88.46) (width 2) (layer F.Cu) (net 3))
   (segment (start 106.54 91) (end 106.54 88.46) (width 2) (layer F.Cu) (net 3))
   (segment (start 109.08 91) (end 109.08 88.46) (width 2) (layer F.Cu) (net 3))
