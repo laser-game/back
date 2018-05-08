@@ -2,3 +2,5 @@
 
 # Back
 PCB includes battery monitoring, booster and indication.
+
+<img src="/fab/placement.svg" width="1000" title="placement">
